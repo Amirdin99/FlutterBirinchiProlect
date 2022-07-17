@@ -1,13 +1,17 @@
-import 'package:flutter/material.dart';
+import 'dart:collection';
+import 'dart:ui';
 
-class Column1 extends StatefulWidget {
-  const Column1({Key? key}) : super(key: key);
+import 'package:flutter/material.dart';
+import 'package:flutterbirinchidars/main.dart';
+
+class Column2 extends StatefulWidget {
+  const Column2({Key? key}) : super(key: key);
 
   @override
-  _Column1State createState() => _Column1State();
+  _Column2State createState() => _Column2State();
 }
 
-class _Column1State extends State<Column1> {
+class _Column2State extends State<Column2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,6 +20,9 @@ class _Column1State extends State<Column1> {
       ),
       body: Container(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             ElevatedButton(onPressed:(){},
               child: Text("Button1"),
@@ -30,6 +37,7 @@ class _Column1State extends State<Column1> {
 
             ),
           ],
+
         ),
       ),
     );
