@@ -1,2 +1,2 @@
 # FlutterBirinchiProject
- "D:\Amirdin Ismoilov\burch mulla\20220508_074232.jpg"
+ ![rasm](D:\Amirdin Ismoilov\burch mulla\20220508_074232.jpg)
